@@ -4,3 +4,6 @@ Project:
 Includes:
 - functions.py (contains all of the mathematical operations and functions)
 - main.py (the main function that runs the calculator)
+
+Version:
+- Uses Python 3.6
