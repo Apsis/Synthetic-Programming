@@ -6,4 +6,4 @@ Includes:
 - main.py (the main function that runs the calculator)
 
 Version:
-- Uses Python 3.6
+- Uses <b>Python 3.6</b>
