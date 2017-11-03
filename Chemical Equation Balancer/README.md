@@ -11,4 +11,4 @@ Note:
 - The program may not run unless you copy the code into an IDE (like PyCharm)
 
 Version:
-- Uses <b>Python 3.6</b>
+- Uses <b>Python 3.5.2 or greater</b>
