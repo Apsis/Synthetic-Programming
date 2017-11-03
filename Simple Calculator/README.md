@@ -7,4 +7,4 @@ Includes:
 - main.py (the main function that runs the calculator)
 
 Version:
-- Uses <b>Python 3.6</b>
+- Uses <b>Python 3.5.2 or greater</b>
