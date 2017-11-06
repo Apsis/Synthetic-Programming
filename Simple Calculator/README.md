@@ -1,5 +1,5 @@
 Project: 
-- This is the code from the Synthetic Programming tutorial "How to Program a Simple Calculator in Python"
+- This is the code from the Synthetic Programming tutorial "How to Program: A Simple Calculator in Python"
 - Video: https://www.youtube.com/watch?v=VWHo8APhcMk
 
 Includes:
