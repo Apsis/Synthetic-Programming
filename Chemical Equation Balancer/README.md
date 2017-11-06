@@ -1,5 +1,5 @@
 Project: 
-- This is the code from the Synthetic Programming tutorial "How to Program a Chemical Reaction Balancer in Python"
+- This is the code from the Synthetic Programming tutorial "How to Program: A Chemical Reaction Balancer in Python"
 - Video: https://www.youtube.com/watch?v=Zk3tzDmDRfU
 
 Includes:
