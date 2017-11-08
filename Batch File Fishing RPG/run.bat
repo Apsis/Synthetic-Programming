@@ -1,7 +1,7 @@
 @echo off
 mode con cols=65 lines=32
 setlocal enabledelayedexpansion
-color f0
+color 0a
 title Fishing RPG
 
 :start1
