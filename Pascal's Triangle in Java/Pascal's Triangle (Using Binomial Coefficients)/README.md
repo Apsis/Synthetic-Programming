@@ -3,8 +3,8 @@ Project:
 - Video: https://www.youtube.com/watch?v=W89FKhuJE8U
 
 Includes:
-- PascalBinomial.java (the java code)
-- PascalBinomial.class (the compiled class file)
+- Pascal_Binomial.java (the java code)
+- Pascal_Binomial.class (the compiled class file)
 
 Version:
 - Uses <b>Java SDK 8u151</b> (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
