@@ -1,6 +1,6 @@
 Project: 
 - This is the code from the Synthetic Programming video "How to make an Auto Clicker in Python"
-- Video: https://www.youtube.com/watch?v=o2dS9FrxeHU
+- Video: https://www.youtube.com/watch?v=9KiqJXMpDXc
 
 Includes:
 - main.py (Runs the program)
