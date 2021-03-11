@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html style='overflow: hidden;'>
+    <head>
+        <title>GardenMon</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    </head>
+
+    <body style='background-color: rgb(12, 14, 20); width: 100vw; height: 100vh; font-family: "Orbitron";'>
+
+        <div style='display: flex; justify-content: center; width: 100%; margin-top: 200px;'>
+
+            <div id="humiditybox" style='background-color: rgb(15, 59, 77); text-align: center; width: 350px; height: 350px; border-radius: 32px;'>
+                <h1 style='color: white; margin-top: 24px;'>Humidity:</h1>
+                <p style='color: white; font-size: 32px;' id="humidity"></p>
+            </div>
+
+            <div id="tempbox" style='background-color: rgb(15, 59, 77); text-align: center; width: 350px; height: 350px; margin-left: 75px; border-radius: 32px;'>
+                <h1 style='color: white; margin-top: 24px;'>Temperature:</h1>
+                <div>
+                    <p style='color: white; font-size: 32px;' id="tempc"></p>
+                    <p style='color: white; font-size: 32px;' id="tempf"></p>
+                </div>
+            </div>
+
+            <div id="heatindexbox" style='background-color: rgb(15, 59, 77); text-align: center; width: 350px; height: 350px; margin-left: 75px; border-radius: 32px;'>
+                <h1 style='color: white; margin-top: 24px;'>Feels like:</h1>
+                <div>
+                    <p style='color: white; font-size: 32px;' id="heatindexc"></p>
+                    <p style='color: white; font-size: 32px;' id="heatindexf"></p>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            var socket = io();
+
+            socket.on('data', function(data){
+
+                var humidity = data.split('=')[1]
+                var tempC = data.split('=')[3]
+                var tempF = data.split('=')[4]
+                var heatIndexC = data.split('=')[6]
+                var heatIndexF = data.split('=')[7]
+
+                document.getElementById('humidity').innerHTML = humidity;
+                document.getElementById('tempc').innerHTML = tempC;
+                document.getElementById('tempf').innerHTML = tempF;
+                document.getElementById('heatindexc').innerHTML = heatIndexC;
+                document.getElementById('heatindexf').innerHTML = heatIndexF;
+            
+            });
+        </script>
+    </body>
+</html>
