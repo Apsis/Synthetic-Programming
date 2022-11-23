@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "serialport": "^9.0.7",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.5.0"
   }
 }
